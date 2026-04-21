@@ -8,7 +8,7 @@ const APPS: { id: AppId; icon: React.ElementType; label: string }[] = [
   { id: "about", icon: User, label: "About" },
   { id: "work", icon: Briefcase, label: "Work" },
   { id: "lab", icon: Beaker, label: "Lab" },
-  { id: "writing", icon: PenTool, label: "Writing" },
+  { id: "writing", icon: PenTool, label: "Certifications" },
   { id: "contact", icon: Mail, label: "Contact" },
 ];
 
