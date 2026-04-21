@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import { useOS } from "./OSProvider";
 
 const BOOT_TEXT = [
-  "RIVERA.OS v2.4.1",
+  "AFNAN.OS v2.4.1",
   "Initializing memory...",
   "Loading kernel extensions...",
   "Mounting creative modules...",
   "Establishing neural link...",
-  "Welcome, Alex."
+  "Welcome, Afnan."
 ];
 
 export function BootSequence() {
