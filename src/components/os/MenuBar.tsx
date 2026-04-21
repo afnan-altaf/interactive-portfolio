@@ -17,7 +17,7 @@ export function MenuBar() {
     about: "About",
     work: "Work",
     lab: "Lab",
-    writing: "Writing",
+    writing: "Certifications",
     contact: "Contact",
   };
 
@@ -26,7 +26,7 @@ export function MenuBar() {
       <div className="flex items-center gap-4">
         <div className="font-bold flex items-center gap-2">
           <Terminal className="w-3 h-3" />
-          RIVERA.OS
+          AFNAN.OS
         </div>
         {activeApp && (
           <div className="text-muted-foreground">
