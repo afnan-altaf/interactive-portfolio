@@ -51,7 +51,7 @@ export function CommandPalette({ open, setOpen }: { open: boolean, setOpen: (val
           </CommandItem>
           <CommandItem onSelect={() => runCommand(() => openApp("writing"))}>
             <PenTool className="mr-2 h-4 w-4" />
-            <span>Open Writing</span>
+            <span>Open Certifications</span>
           </CommandItem>
           <CommandItem onSelect={() => runCommand(() => openApp("contact"))}>
             <Mail className="mr-2 h-4 w-4" />
